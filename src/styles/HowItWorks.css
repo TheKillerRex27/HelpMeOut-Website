@@ -4,6 +4,7 @@
   background: #fff;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4.5rem;
 }
 
 .title {
@@ -33,7 +34,7 @@
 .step h4 {
   color: #1b233d;
   text-align: center;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 1.25rem;
   font-weight: 600;
 }

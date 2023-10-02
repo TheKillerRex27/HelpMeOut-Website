@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import LandingComponent from "./LandingComponent";
 import Features from "./Features";
 import HowItWorks from "./HowItWorks";
+import Footer from "./Footer";
 import "../styles/App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Features />
         <HowItWorks />
       </main>
+      <Footer />
     </>
   );
 }

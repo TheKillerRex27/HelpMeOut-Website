@@ -1,0 +1,51 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background: #120b48;
+  padding: 5rem 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logo-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-links {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links-title {
+  color: #fff;
+  font-family: "Sora";
+  font-weight: 600;
+}
+
+.footer-link {
+  cursor: pointer;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 1rem;
+}
