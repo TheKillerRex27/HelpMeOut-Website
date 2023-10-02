@@ -13,18 +13,20 @@ function LandingComponent() {
           Show Them <br /> Don't Just Tell
         </h1>
         <p className="landing-text">
-          Help your friends and loved ones by creating and sending videos on how
-          to get things done on a website.
+          Help your friends and loved ones by creating and sending <br /> videos
+          on how to get things done on a website.
         </p>
         <button className="install-button">
-          <a href="#">
+          <a href="https://drive.google.com/file/d/1M5ftDFkNvPFziW74z_EfBs21tBOX32Y5/view?usp=sharing">
             Install HelpMeOut <img src={arrow} />
           </a>
         </button>
       </div>
       <div className="picture-grid">
-        <img src={photo1} />
-        <img src={photo2} />
+        <div className="first-child">
+          <img src={photo1} />
+          <img src={photo2} />
+        </div>
         <img src={photo3} />
       </div>
     </section>

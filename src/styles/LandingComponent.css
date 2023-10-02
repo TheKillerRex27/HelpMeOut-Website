@@ -1,10 +1,17 @@
 .landing {
   display: flex;
   flex-direction: row;
-  width: auto;
+  background-image: url("../assets/Landing-bg.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 2.5rem 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing-title {
+  width: 30rem;
   color: #141414;
   font-family: "Sora";
   font-size: 3rem;
@@ -23,7 +30,31 @@
   background: #120b48;
   padding: 1rem 1.25rem;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 0.625rem;
+}
+
+.install-button a {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.install-button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 28rem;
 }
