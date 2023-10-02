@@ -1,0 +1,29 @@
+.landing {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.landing-title {
+  color: #141414;
+  font-family: "Sora";
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.landing-text {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Inter";
+  line-height: 1.75rem;
+}
+
+.install-button {
+  display: flex;
+  border-radius: 0.5rem;
+  background: #120b48;
+  padding: 1rem 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
