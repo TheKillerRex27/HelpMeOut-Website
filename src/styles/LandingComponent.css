@@ -1,5 +1,6 @@
 .landing {
   display: flex;
+  background: #fff;
   flex-direction: row;
   background-image: url("../assets/Landing-bg.png");
   background-size: contain;
