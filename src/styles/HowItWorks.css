@@ -1,0 +1,68 @@
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #141414;
+  font-family: "Sora";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: auto;
+  text-align: center;
+}
+
+.step h4 {
+  color: #1b233d;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.step-num {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.875rem;
+  background: #120b48;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.step p {
+  color: #616163;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  line-height: 151.3%;
+}
+
+.step img {
+  width: 20rem;
+  height: auto;
+}
